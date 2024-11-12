@@ -5,20 +5,13 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int studentscore = 89;
+       int currentAge=12;
+       int minAGE= 24;
+
+         String S= (currentAge>minAGE)? "Tru" : "false";
+        System.out.println(S);
 
 
-        if (studentscore >=90){
-            System.out.println("A");
         }
-        else if (studentscore >= 80){
-            System.out.println("b");
-        }
-        else if (studentscore >= 70){
-            System.out.println("c");
-        }
-        else   {
-            System.out.println("N");
-        }
+
     }
-}
