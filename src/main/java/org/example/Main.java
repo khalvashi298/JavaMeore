@@ -3,20 +3,22 @@ package org.example;
 public class Main {
 
 
-      public static void main(String[] args) {
+    public static void main(String[] args) {
+
+        int studentscore = 89;
 
 
-       int minAge =25;
-       int currentAge=34;
-
-       if (currentAge < minAge){
-           System.out.println("ვერ დარეგისტრირდები");
-       }
-       else {
-           System.out.println("გილოცავთ თქვენ წარმატებით დარეგისტრირდი");
-       }
-
-
-
+        if (studentscore >=90){
+            System.out.println("A");
+        }
+        else if (studentscore >= 80){
+            System.out.println("b");
+        }
+        else if (studentscore >= 70){
+            System.out.println("c");
+        }
+        else   {
+            System.out.println("N");
+        }
     }
 }
